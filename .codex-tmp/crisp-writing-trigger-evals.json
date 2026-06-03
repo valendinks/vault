@@ -1,0 +1,82 @@
+[
+  {
+    "query": "rewrite the exec summary of this PRD so the recommendation comes first \\u2014 right now eng has to read to paragraph 4 to find out we actually decided to make RGBD the capture baseline. it's buried.",
+    "should_trigger": true
+  },
+  {
+    "query": "can you tidy up this slack post announcing the calor/kelvin (core vs surface) split? it reads like chatgpt wrote it \\u2014 em dashes everywhere and that 'it's not just a refactor, it's a philosophy' thing",
+    "should_trigger": true
+  },
+  {
+    "query": "draft the PR description for the capture-floor change (address + RGBD now mandatory, ingestion rejects below it). keep it tight, eng hates fluff",
+    "should_trigger": true
+  },
+  {
+    "query": "this is way too wordy, make it land faster:\\n\\n'It is important to note that, at the end of the day, the decision regarding whether or not we should support the rare and complex buildings is one that ultimately comes down to cost.'",
+    "should_trigger": true
+  },
+  {
+    "query": "i have like 6 reasons we accept 5% of cases going to manual fallback but the note is a mess. help me figure out what the lead claim should be and group the rest under it",
+    "should_trigger": true
+  },
+  {
+    "query": "go over the 'Outstanding leadership questions' draft and cut the fluff \\u2014 it's 1857 words and should be closer to 1000 without losing any decisions",
+    "should_trigger": true
+  },
+  {
+    "query": "this onboarding email to a new FDE sounds robotic and hedgy. humanize it but don't change what it actually says",
+    "should_trigger": true
+  },
+  {
+    "query": "write the commit message for pulling HBEMO interpretation logic out of core into the surface layer",
+    "should_trigger": true
+  },
+  {
+    "query": "i'm presenting the SLA pricing (1 day/300kr, 2 days/50kr) to the board friday. how do i open so the conclusion lands in the first sentence instead of building up to it",
+    "should_trigger": true
+  },
+  {
+    "query": "polish this error string for the capture screen: 'It is important to note that the capture could not be successfully ingested at this time due to the fact that required structured data was not present.'",
+    "should_trigger": true
+  },
+  {
+    "query": "this go function in calor is full of slop \\u2014 pointless wrapper funcs, three dead variables, a comment on every line. clean it up",
+    "should_trigger": false
+  },
+  {
+    "query": "review my Engineering Constraints & Mandate draft from the angle of a skeptical CTO, a frontend lead, and a design-partner PM \\u2014 what would each one push back on?",
+    "should_trigger": false
+  },
+  {
+    "query": "grill me on the RGBD-as-baseline decision before i take it to Thomas and Lukas at Botjek \\u2014 find the holes in my reasoning",
+    "should_trigger": false
+  },
+  {
+    "query": "translate the capture-floor section of this note into Danish so the Botjek team can read it",
+    "should_trigger": false
+  },
+  {
+    "query": "pull every U-value and material name mentioned in this thermal spec into a markdown table",
+    "should_trigger": false
+  },
+  {
+    "query": "write a python script that scans the vault and flags any wikilinks pointing at notes that don't exist",
+    "should_trigger": false
+  },
+  {
+    "query": "what's the actual difference between RGBD capture and a point cloud, and why does roomformer\\u2192roomplan beat the other way round? just explain it to me",
+    "should_trigger": false
+  },
+  {
+    "query": "convert this markdown table of lifecycle-points into a CSV i can paste into a sheet",
+    "should_trigger": false
+  },
+  {
+    "query": "sketch the screen layout for the on-site capture verification step \\u2014 what goes where for the surveyor",
+    "should_trigger": false
+  },
+  {
+    "query": "come up with a few catchy internal codenames for the FDE tooling",
+    "should_trigger": false
+  }
+]
